@@ -1,89 +1,43 @@
-# Expense Tracker App
+# 💰 Expense Tracker
 
-A simple desktop Expense Tracker application built using Python and Tkinter.  
-This project allows users to add, delete, and store expenses with categories while automatically calculating the total spending.
-
----
+A modern desktop Expense Tracker built with **Python**, **Tkinter**, and **ttk** that helps users record, categorize, and manage their expenses through a clean and professional dark-themed interface.
 
 ## Features
 
-- Add expenses with:
-  - Expense name
-  - Expense amount
-  - Expense category
-- Delete selected expenses
-- Automatically calculates total expenses
-- Stores expense data permanently using JSON
-- Input validation and error handling
-- Simple and clean Tkinter GUI
+* Add expenses with a name, amount, and category
+* Delete selected expenses instantly
+* Automatic total expense calculation
+* Persistent data storage using JSON
+* Input validation to prevent invalid entries
+* Modern dark-themed UI
+* Professional table view using Treeview
+* Categorized expense management
 
----
+## Screenshot
+
+![Expense Tracker Screenshot](screenshot.png)
 
 ## Technologies Used
 
-- Python
-- Tkinter
-- JSON
+* Python 3
+* Tkinter
+* ttk
+* JSON
 
----
+## How It Works
 
-## How to Run
-
-### 1. Clone the repository
-
-### 2. Navigate to the project folder
-
-### 3. Run the application
-
-## Categories Available
-
-- Food
-- Transport
-- Shopping
-- Bills
-- Other
-
----
-
-## Data Storage
-
-All expenses are stored locally inside:
-
-```bash
-expenses.json
-```
-
-The file is automatically created and updated when expenses are added or deleted.
-
----
+1. Enter the expense name.
+2. Enter the expense amount.
+3. Select a category.
+4. Click **ADD EXPENSE**.
+5. View all expenses in the table.
+6. Select any expense and click **DELETE** to remove it.
+7. The total expenses are automatically updated and displayed at the bottom.
 
 ## Future Improvements
 
-- Edit existing expenses
-- Search and filter expenses
-- Monthly expense summaries
-- Charts and graphs
-- Dark mode UI
-- Export expenses to CSV
-
----
-
-## Learning Outcomes
-
-This project helped me practice:
-
-- Object-Oriented Programming (OOP)
-- GUI development using Tkinter
-- JSON file handling
-- Exception handling
-- Data validation
-- Python project structuring
-
----
-
-## About
-
-This project was created as part of my Python 
-learning journey to improve my understanding of 
-GUI applications, file handling, and object-oriented 
-programming using Python.
+* Expense editing functionality
+* Search and filter options
+* Monthly spending reports
+* Charts and visual analytics
+* Export to CSV or Excel
